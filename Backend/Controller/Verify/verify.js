@@ -1,5 +1,5 @@
 
-
+//  yaha par vo sql query chala sakte hai or direct data ko fetch karte hai 
 const user = (req,res) =>{
   return res.json({Status:true, role:req.role, uid: req.uid, name:req.name})
 }

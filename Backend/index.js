@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 dotenv.config();
 app.use(cors({         // cookie store ke liye ..
-    origin: ["http://localhost:3000"],  // frontend url
+    origin: ["http://localhost:3000", "http://localhost:3001"],  // frontend url
     method: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],  // all method 
     credentials: true
 }))
